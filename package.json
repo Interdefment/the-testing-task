@@ -7,9 +7,6 @@
     "serve": "vite preview",
     "lint": "eslint ./src/*.tsx"
   },
-  "engines": {
-    "node": "^14.0.0"
-  },
   "dependencies": {
     "@reduxjs/toolkit": "^1.6.1",
     "@tailwindcss/forms": "^0.4.0",
