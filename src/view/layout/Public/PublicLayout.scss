@@ -1,0 +1,20 @@
+@import 'src/view/styles/abstract.scss';
+
+$authorization-page-bg: rgb(255, 255, 255);
+
+.authorization-page {
+    flex-grow: 1;
+    background: $authorization-page-bg;
+    max-width: 1600px;
+    width: 100%;
+    padding: 0 2rem;
+    margin: 0 auto;
+}
+
+.authorization-page__title {
+    font-size: 3rem;
+}
+
+.authorization-page__content {
+    padding-top: 4rem;
+}

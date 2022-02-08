@@ -1,0 +1,25 @@
+@import 'src/view/styles/abstract.scss';
+
+$header-bg: rgb(182, 151, 255);
+$header-text: $white;
+
+.main-layout {
+    flex-grow: 1;
+    width: 100%;
+}
+
+.main-layout__content {
+    width: 100%;
+    max-width: 1600px;
+    padding: 0 2rem;
+}
+
+.main-layout__header {
+    background: $header-bg;
+    color: $header-text;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    font-size: 1.5rem;
+}
